@@ -59,7 +59,7 @@ contract NFTSwap is IERC721Receiver {
         _;
     }
 
-    receive() external payable {}
+    fallback() external payable {}
 
     /*////////////////////////////////////////////////////////////////////////
                               EXTERNAL FUNCTIONS
